@@ -5,23 +5,18 @@ body {
   background-color: #d4acf1;
 }
 
-#nome {
+#nomen {
   font-size: 100px;
   text-align: center;
   font-family: Brush Script MT;
 }
 
-#fundo {
+#nome {
   background-color: #a536f5;
 }
 
-#cx {
-  height: 325px;
-  width: 470px;
-}
-
-#c {
-  font-size:
+#olameninas {
+  font-size: 30px;
 }
 
 #corpo {
@@ -34,16 +29,19 @@ body {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 100%;
+
 }
 
 #menu li {
   padding: 40px;
   display: inline;
+
 }
 
 #menu li a {
   text-decoration: none;
   font-size: 23px;
+
 }
 #menu li a:link {
   color: black;
@@ -57,6 +55,25 @@ body {
   color: red;
 }
 
+#caixadetexto {
+  height: 325px;
+  width: 470px;
+  float:left;
+}
+
+#imagemolho {
+  margin-left: 650px;
+
+}
+
+#caixagigante {
+  display: table;
+  margin-top: 50px;
+}
+
+#textodacaixa {
+  font-size: 20px;
+}
 </style>
 
 <html>
@@ -67,26 +84,37 @@ body {
 </head>
 
 <body>
-  <div id="fundo">
-    <h1 id="nome">J'adore le maquillage</h1>
+  <div id="nome">
+    <div>
+      <img width="155px" src="imagens/torre.png">
+    </div>
+
+    <div>
+    <h1 id="nomen">J'adore le maquillage</h1>
+    </div>
+
+    <div>
+      <img width="200px" src="imagens/batom.png">
+    </div>
   </div>
   <div id="menu">
     <ul>
       <li> <a href="">Home</a> </li>
-      <li> <a href="">Tutoriais<a href=""> </li>
+      <li> <a href="">Tutoriais</a> </li>
       <li> <a href="">Dicas</a> </li>
     </ul>
   </div>
   <div id="corpo">
 
-    <div id="cx">
-      <h1 id="c" class="h"> Olá, meninas!!!</h1>
+<div id="caixagigante">
+    <div id="caixadetexto">
+      <h1 id="olameninas" class="h"> Olá, meninas!!!</h1>
       <p id="textodacaixa"> Aqui em nosso site você pode encontrar TUDO sobre maquiagem: o que está em alta, o que fica melhor para cada estação, maquiagem dos famosos, dicas para os mais variados gostos e estilos. Aqui você encontra da mais básica dica para o delineado e aumentar os cílios até o mágico Clown Contouring. </p>
     </div>
-
-    <div>
-      <img src="imagens/download.jpg"/>
+    <div id="imagemolho">
+      <img width="400px" src="imagens/download.jpg"/>
     </div>
+</div>
   </div>
 </body>
 
