@@ -11,8 +11,15 @@ body {
   font-family: Brush Script MT;
 }
 
-#nome {
+#banner {
   background-color: #a536f5;
+  width: 100%;
+}
+
+#nome {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 #olameninas {
@@ -29,19 +36,19 @@ body {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 100%;
-
+  text-align: center;
 }
 
 #menu li {
-  padding: 40px;
+  padding: 60px;
   display: inline;
 
 }
 
 #menu li a {
   text-decoration: none;
-  font-size: 23px;
-
+  font-size: 30px;
+  font-family: Berlin Sans FB;
 }
 #menu li a:link {
   color: black;
@@ -52,7 +59,7 @@ body {
 }
 
 #menu li a:hover {
-  color: red;
+  color: #d749f1;
 }
 
 #caixadetexto {
@@ -74,6 +81,23 @@ body {
 #textodacaixa {
   font-size: 20px;
 }
+
+#torre img {
+  width: 155px;
+  margin-bottom: -50px;
+}
+
+#batom img{
+  margin-bottom: -70px;
+  width: 230px;
+}
+
+#torre, #titulo, #batom {
+  display: inline-block;
+}
+
+
+
 </style>
 
 <html>
@@ -84,24 +108,27 @@ body {
 </head>
 
 <body>
-  <div id="nome">
-    <div>
-      <img width="155px" src="imagens/torre.png">
-    </div>
+  <div id="banner">
+    <div id="nome">
 
-    <div>
-    <h1 id="nomen">J'adore le maquillage</h1>
-    </div>
+      <div id= "torre" >
+        <img src="imagens/torre.png">
+      </div>
 
-    <div>
-      <img width="200px" src="imagens/batom.png">
+      <div id="titulo">
+      <h1 id="nomen">J'adore le maquillage</h1>
+      </div>
+
+      <div id="batom" >
+        <img src="imagens/batom.png">
+      </div>
     </div>
   </div>
   <div id="menu">
     <ul>
-      <li> <a href="">Home</a> </li>
-      <li> <a href="">Tutoriais</a> </li>
-      <li> <a href="">Dicas</a> </li>
+      <li> <a href="">HOME</a> </li>
+      <li> <a href="">TUTORIAIS</a> </li>
+      <li> <a href="">DICAS</a> </li>
     </ul>
   </div>
   <div id="corpo">
