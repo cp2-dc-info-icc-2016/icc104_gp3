@@ -2,7 +2,7 @@
 <style>
 
 body {
-  background-color: #d4acf1;
+  background-color: #5bd893;
 }
 
 #nomen {
@@ -12,7 +12,7 @@ body {
 }
 
 #banner {
-  background-color: #a536f5;
+  background-color: #5bd893;
   width: 100%;
 }
 
@@ -26,10 +26,18 @@ body {
   font-size: 30px;
 }
 
+#vapresentação{
+  font-size: 30px;
+}
 #corpo {
-  width:500px;
+  width:1000px;
   margin-left: 250px;
   margin-right: 250px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 #menu {
@@ -37,6 +45,7 @@ body {
   border-bottom: 1px solid black;
   width: 100%;
   text-align: center;
+  background-color: #bbf5d5;
 }
 
 #menu li {
@@ -68,9 +77,20 @@ body {
   float:left;
 }
 
-#imagemolho {
-  margin-left: 650px;
+#caixadetexto2 {
+  height: 325px;
+  width: 470px;
+  margin-left: 460;
+  padding-top: 25px;
+}
 
+#imagemolho {
+  margin-left: 560px;
+
+}
+#video {
+  float: left;
+  padding-top: 20px;
 }
 
 #caixagigante {
@@ -78,7 +98,7 @@ body {
   margin-top: 50px;
 }
 
-#textodacaixa {
+.textodacaixa {
   font-size: 20px;
 }
 
@@ -96,8 +116,16 @@ body {
   display: inline-block;
 }
 
+#rodapé {
 
-
+  width: 100%;
+  padding: 2px;
+}
+ #rod {
+    font-family: Comic Sans MT;
+    text-align: center;
+    font-size: 15px;
+ }
 </style>
 
 <html>
@@ -131,18 +159,34 @@ body {
       <li> <a href="">DICAS</a> </li>
     </ul>
   </div>
-  <div id="corpo">
+<div id="corpo">
 
 <div id="caixagigante">
     <div id="caixadetexto">
       <h1 id="olameninas" class="h"> Olá, meninas!!!</h1>
-      <p id="textodacaixa"> Aqui em nosso site você pode encontrar TUDO sobre maquiagem: o que está em alta, o que fica melhor para cada estação, maquiagem dos famosos, dicas para os mais variados gostos e estilos. Aqui você encontra da mais básica dica para o delineado e aumentar os cílios até o mágico Clown Contouring. </p>
+      <p class="textodacaixa"> Aqui em nosso site você pode encontrar TUDO sobre maquiagem: o que está em alta, o que fica melhor para cada estação, maquiagem dos famosos, dicas para os mais variados gostos e estilos. Aqui você encontra da mais básica dica para o delineado e aumentar os cílios até o mágico Clown Contouring. </p>
     </div>
     <div id="imagemolho">
       <img width="400px" src="imagens/download.jpg"/>
     </div>
 </div>
+
+  <div id="apresentaçao">
+      <div id="video">
+      <iframe src="https://www.youtube.com/watch?v=ykq59MBgZ7o" width="400" height="300"></iframe>
+      </div>
+      <div id="caixadetexto2">
+          <h1 id="vapresentação" class="h"> Quem somos nós?</h1>
+        <p class="textodacaixa"> Esse é um vídeo de apresentação dos desenvolvedores do site. Beatriz, Matheus, Davi, Jeniffer, são estudantes do colégio Pedro II e o criaram para um trabalho da 3ª certificação. O site contém dicas de todos os tipos, sobre maquiagem e beleza, com o intuito de ajudar os iniciantes.   </p>
+      </div>
+  </div>
+
+  </div>
+
+  <div id="rodapé">
+    <p id=rod>© COPYRIGHT 2017 JADORELEMAQUILLAGE.COM - TODOS OS DIREITOS RESERVADOS.	| DESIGN MJBD.COM E PROGRAMAÇÃO BJMDDIGITAL</p>
   </div>
 </body>
+
 
 </html>
