@@ -1,0 +1,130 @@
+body {
+  background-color: #5bd893;
+}
+
+#nomen {
+  font-size: 100px;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+#banner {
+  background-color: #5bd893;
+  width: 100%;
+}
+
+#nome {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+#menu {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: center;
+  background-color: #bbf5d5;
+}
+
+#menu li {
+  padding: 60px;
+  display: inline;
+
+}
+
+#menu li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Berlin Sans FB;
+}
+
+#menu li a:link {
+  color: #0c5d22;
+}
+
+#menu li a:visited {
+  color: black;
+}
+
+#menu li a:hover {
+  color: #d749f1;
+}
+
+
+#torre img {
+  width: 155px;
+  margin-bottom: -50px;
+}
+
+#batom img{
+  margin-bottom: -70px;
+  width: 230px;
+}
+
+#torre, #titulo, #batom {
+  display: inline-block;
+}
+
+#corpo {
+  width:1000px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#rodapé {
+
+  width: 100%;
+  padding: 2px;
+}
+ #rod {
+    font-family: Comic Sans MT;
+    text-align: center;
+    font-size: 15px;
+ }
+
+ .ldicas {
+   text-decoration: none;
+   font-size: 22px;
+
+ }
+ a:link {
+   color: #058226;
+ }
+
+ a:visited {
+   color: #058226;
+}
+
+  a:hover {
+   color: #d749f1;
+ }
+
+.tuto {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.vid {
+  font-size: 18px;
+}
+
+.youtubers {
+  color: #0c5d22;
+}
+
+#nomedadica {
+  color: #0c5d22;
+  font-size: 35px;
+
+}
+
+#escritodica {
+    font-size: 20px;
+}
